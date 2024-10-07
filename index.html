@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный сайт веб-разработчика</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1 class="logo__text">SkyGoose</h1>
+            <p class="logo__text__small">
+                FullStack WEB-Разработчик
+            </p>
+        </div>
+        <nav class="navbar">
+            <ul class="navbar__list" role="navigation">
+                <li class="navbar__list__item">
+                    <a class="navbar__link" href="#about">
+                        Обо мне
+                    </a>
+                </li>
+                <li class="navbar__list__item">
+                    <a class="navbar__link" href="#projects">
+                        Мои проекты
+                    </a>
+                </li>
+                <li class="navbar__list__item">
+                    <a class="navbar__link" href="#contact">
+                        Контактная информация
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content__container">
+
+        <section class="screen" id="about">
+            <h2>Обо мне</h2>
+        </section>
+    
+        <section class="screen" id="projects">
+            <h2>Мои проекты</h2>
+            
+        </section>
+    
+        <section class="screen" id="contact">
+            <h2>Связаться со мной</h2>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 SkyGoose. Все права защищены.</p>
+    </footer>
+
+    <style>
+        .screen {
+            padding: 20px;
+            
+            background-color: #ffffff;
+            
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+            min-height: calc(100svh - 150px);
+            min-width: 100%;
+
+            margin: 10px 20px;
+        }
+        .project {
+            margin-bottom: 20px;
+        }
+        
+    </style>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

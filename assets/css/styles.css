@@ -1,0 +1,58 @@
+@import url('./modules/_colors.module.css');
+@import url('./modules/_header.module.css');
+@import url('./modules/_footer.module.css');
+
+body {
+    min-width: 100%;
+    min-height: 100svh;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #f4f4f4;
+
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.content__container {
+    flex-grow: 2;
+    margin-top: 150px;
+    width: 1440px;
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+
+
+*::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    /* border-radius: 5px; */
+    background-color: #2C373D;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #2C373D;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #2C373D;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #5b6d76;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #5C727F;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #7F9EAF;
+  }
